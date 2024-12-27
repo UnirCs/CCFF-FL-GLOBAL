@@ -1,0 +1,22 @@
+/* Estilo para el menú */
+nav a {
+    text-decoration: none;
+    margin: 0 15px;
+    color: black;
+}
+
+/* Estilo para el enlace activo */
+nav a.activo {
+    color: blue;
+    text-decoration: underline;
+}
+
+/* Cambiar color al pasar el ratón por encima */
+nav a:hover {
+    color: darkblue;
+}
+
+/* Estilizar enlaces que comiencen con "http" */
+nav a[href^="http"] {
+    color: green;
+}

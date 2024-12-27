@@ -1,0 +1,29 @@
+/* Estilo general de la tabla */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+/* Alternar colores de filas */
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+/* Cambiar estilo al pasar el ratón */
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Estilizar celdas con clase específica */
+td.destacado {
+    font-weight: bold;
+    color: red;
+}

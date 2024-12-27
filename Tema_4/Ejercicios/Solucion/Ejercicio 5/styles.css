@@ -1,0 +1,44 @@
+/* Estilo general del formulario */
+form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Estilo para los campos de texto y correo */
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Cambiar borde al enfocar los campos */
+input[type="text"]:focus,
+input[type="email"]:focus {
+    border-color: blue;
+}
+
+/* Estilo para el botón de envío */
+button[type="submit"] {
+    padding: 10px 15px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Cambiar estilo del botón al pasar el ratón */
+button[type="submit"]:hover {
+    background-color: darkgreen;
+}
+
+/* Estilo para las opciones */
+label {
+    margin-right: 10px;
+}
