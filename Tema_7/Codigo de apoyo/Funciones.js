@@ -77,6 +77,21 @@ console.log(operacion(3, 5, multiplicacion)); //Devuelve 15
 console.log(operacion(3, 5, division)); //Devuelve 0.6
 
 
+//Otro ejemplo de callback
+const isPar = (n, parCallBack, imparCallback) => {
+    if (n%2 === 0) {
+        parCallBack();
+    } else {
+        imparCallback();
+    }
+}
+isPar(4, () => console.log("El numero es par"));
+//isPar(5, () => console.log("El numero es par"));
 
+const parCallBack = () => console.log("El numero es par");
+const imparCallBack = () => console.log("El numero es impar");
+
+isPar(6, parCallBack, imparCallBack);
+isPar(7, parCallBack, imparCallBack);
 
 
